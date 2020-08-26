@@ -1,0 +1,7 @@
+micronaut:
+  application:
+    name: orderSvcRabbitmq
+rabbitmq:
+  uri: amqp://rabbitmq.toddrsharp.com:5672
+  username: tsharp
+  password: ${RABBITMQ_PASSWORD}
